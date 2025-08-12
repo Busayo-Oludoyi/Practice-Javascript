@@ -1,0 +1,22 @@
+/* Counter css */
+#countLabel{
+    display:block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: aliceblue;
+    background-color: navy;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: hsl(223, 93%, 11%);
+}
