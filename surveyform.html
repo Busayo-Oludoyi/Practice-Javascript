@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <h1>G4G Survey Form (Practice)</h1>
+    <main>
+        
+    <form class="control">
+        <fieldset>
+          <legend>Basic Details:</legend>
+        <label for="firstname">Name</label> <br>
+            <input type="text"  id="firstname" placeholder="Enter Name" required autofocus/> <br><br>
+        <label for="lastname">Surname</label> <br>
+            <input type="text"  id="lastname" placeholder="Enter Surname" required />   <br> <br>
+        <label for="email">Email</label> <br>
+            <input type="email" id="email" placeholder="Enter Email" required /> <br><br>
+        <label for="phone">Phone No.</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="0808-123-4567" required><br><br>
+        <label for="age">Age</label> <br>
+            <input type="number" name="age" id="age" placeholder="Enter Age" /> 
+        </fieldset><br>
+        
+ <p>Would you reccoommend G4G to a friend?</p>
+            <input type="radio" name="answer" value="Yes" id="Yes">Yes</input>
+            <br>
+            <input type="radio" name="answer" value="No" id="No">No</input>
+            <br>
+            <input type="radio" name="answer" value="Maybe" id="Maybe">Maybe</input>
+            <br>
+            <input type="radio" name="answer" value="Depends" id="Depends">Depends</input>
+    
+<p>Date of Birth (DOB):</p>
+            <input type="date" name="DOB"  Value="date" id="date">
+<p>What option best describes you?</p>
+        <select name="Status" id="Status">
+            <option value="select">Select</option>
+            <option value="occupation1">Student</option>
+            <option value="occupation2">Enterpreneur</option>
+            <option value="occupation3">Civil Servant</option>
+            <option value="occupation4">Artist</option>
+            <option value="occupation5">Athlete</option>
+            <option value="occupation6">Others..</option>
+        </select>
+
+<p>Languages and Frameworks Known <small>(Tick all that apply)</small></p>
+
+         
+        <input type="checkbox" name="Frameworks" id="fw1">
+        <label for="fw1">C</label>    <br>
+        <input type="checkbox" name="Frameworks" id="fw2">
+        <label for="fw2">C++</label>  <br>
+        <input type="checkbox" name="Frameworks" id="fw3">
+        <label for="fw3">HTML</label>  <br>
+        <input type="checkbox" name="Frameworks" id="fw4">
+        <label for="fw4">CSS</label>  <br>
+        <input type="checkbox" name="Frameworks" id="fw5">
+        <label for="fw5">Python</label>  <br>
+        <input type="checkbox" name="Frameworks" id="fw6">
+        <label for="fw6">Javascript</label>  <br>
+        <input type="checkbox" name="Frameworks" id="fw7">
+        <label for="fw7">Django</label>  <br>
+        <input type="checkbox" name="Frameworks" id="fw8">
+        <label for="fw8">React</label>  <br>
+        <input type="checkbox" name="Frameworks" id="fw9">
+        <label for="fw9">Spring</label> 
+
+<p>Any comments of suggestions</p>
+        <textarea name="comment" id="comment1" cols="35" rows="3" placeholder="Enter text here..."></textarea>
+        <br><br>
+        <button type="submit">Submit</button><br><br><br>
+        <input type="reset" name="reset" id="reset">
+    </form>
+    </main>
+    <footer>
+     Designed by SAGE Visuals, All rights reserved &reg;
+
+    </footer>
+</body>
+</html>
